@@ -1,7 +1,7 @@
 .container {
     width: 50%;
-  	height: 100%;
     margin-left: 20px;
+    padding: 5px;
 }
 
 .formContainer {
@@ -15,16 +15,10 @@
   	background-size: cover;
     align-items: center;
     justify-content: center;
-    padding: 10px;
 }
 
-
-
 #demoDiv {
-  position: sticky;
   width: 95%;
-  top: 0;
-  left: 0;
   margin-left: 20px;
 }
 
@@ -54,7 +48,7 @@ label {
 }
 
 .meme {
-  display: inline;
+  display: inline-block;
   width: 350px;
   justify-content: center;
   text-align: center;
