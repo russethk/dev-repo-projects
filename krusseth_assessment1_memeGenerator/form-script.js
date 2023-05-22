@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
   window.onload = function() {
     const el = document.createElement("img");
     el.setAttribute("src", "images/meme.png");
-    el.setAttribute("width", "95%");
+    el.setAttribute("width", "90%");
     document.getElementById("demoDiv").appendChild(el);
   }
 
