@@ -18,8 +18,9 @@
 }
 
 #demoDiv {
+  position: absolute;
   width: 90%;
-  margin-left: 20px;
+  margin: 0 auto;
 }
 
 
