@@ -122,7 +122,7 @@ function gameReset() {
   const resetButton = document.createElement("button");
   resetButton.innerText = "RESET";
   scorecard.append(resetButton);
-  resetButton.addEventListener('click',()=>{ board = [];})
+  resetButton.addEventListener('click',()=>{ location.reload()})
 
   const p1icon = document.createElement('div');
   const p2icon = document.createElement('div');
